@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 840e4f8d537c215408ea56083d037763
+guid: d8477f4a5a4d81d4d93387fdb35a2030
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Game Over
+  - FROSTBITE Narrow
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
