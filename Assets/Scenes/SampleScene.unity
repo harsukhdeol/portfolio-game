@@ -206,7 +206,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 40919620}
+      - m_Target: {fileID: 2044084686}
         m_TargetAssemblyTypeName: Link, Assembly-CSharp
         m_MethodName: OpenPortfolio
         m_Mode: 1
@@ -5989,7 +5989,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &823736188
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8202,7 +8202,6 @@ GameObject:
   - component: {fileID: 1139272046}
   - component: {fileID: 1139272045}
   - component: {fileID: 1139272044}
-  - component: {fileID: 1139272047}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -8272,7 +8271,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1139272045}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2044084686}
+        m_TargetAssemblyTypeName: Link, Assembly-CSharp
+        m_MethodName: OpenResume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1139272045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8311,23 +8322,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1139272042}
   m_CullTransparentMesh: 0
---- !u!114 &1139272047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1139272042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc16c8a7b6c4324bba10df001e703e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnPress:
-    m_PersistentCalls:
-      m_Calls:
-      - {m_Target: {fileID: 2044084686}, m_TargetAssemblyTypeName: Link, Assembly-CSharp, m_MethodName: OpenResume, m_Mode: 1, m_Arguments: {m_ObjectArgument: {fileID: 0}, m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, m_IntArgument: 0, m_FloatArgument: 0, m_StringArgument: , m_BoolArgument: 0}, m_CallState: 2}
-    m_CallsDirty: 1
 --- !u!1001 &1172365884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10515,7 +10509,6 @@ GameObject:
   - component: {fileID: 1577749887}
   - component: {fileID: 1577749886}
   - component: {fileID: 1577749885}
-  - component: {fileID: 1577749888}
   m_Layer: 5
   m_Name: Website
   m_TagString: Untagged
@@ -10585,7 +10578,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1577749886}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2044084686}
+        m_TargetAssemblyTypeName: Link, Assembly-CSharp
+        m_MethodName: OpenWebsite
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1577749886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10624,23 +10629,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577749883}
   m_CullTransparentMesh: 0
---- !u!114 &1577749888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1577749883}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc16c8a7b6c4324bba10df001e703e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnPress:
-    m_PersistentCalls:
-      m_Calls:
-      - {m_Target: {fileID: 2044084686}, m_TargetAssemblyTypeName: Link, Assembly-CSharp, m_MethodName: OpenWebsite, m_Mode: 1, m_Arguments: {m_ObjectArgument: {fileID: 0}, m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, m_IntArgument: 0, m_FloatArgument: 0, m_StringArgument: , m_BoolArgument: 0}, m_CallState: 2}
-    m_CallsDirty: 1
 --- !u!1 &1633902698
 GameObject:
   m_ObjectHideFlags: 0
