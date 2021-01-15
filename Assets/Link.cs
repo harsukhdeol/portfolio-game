@@ -17,7 +17,7 @@ public void print(){
 	public void OpenResume()
 	{
 		#if !UNITY_EDITOR
-		openWindow("https://github.com/harsukhdeol");
+		openWindow("https://harsukhdeol.github.io/portfolio/assets/HarsukhDeol.pdf");
 		#endif
 	}
 	public void OpenWebsite()
