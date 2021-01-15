@@ -2795,8 +2795,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294931198
-  m_fontColor: {r: 0.9963867, g: 0.44716978, b: 1, a: 1}
+    rgba: 4280660735
+  m_fontColor: {r: 1, g: 0.6992036, b: 0.14528298, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3633,7 +3633,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Rapidly prototyped AR experience with TikTok Effects Creator
+  m_text: '- Deveoped and designed AR experience with TikTok Effects Creator
 
     -
     Scripted performant 3D animations with vertex HLSL shaders
@@ -3642,9 +3642,9 @@ MonoBehaviour:
     developed reusable 3D prototypes for mobile AR game with Unity and Blender, implemented
     lighting system and post processing
 
-    - Collaborated with developers remotely
-    to create components for a live sports betting app with React and Next.js, implemented
-    motion with GSAP'
+    - Collaborated with developers to create
+    a live sports betting app with React and Next.js, implemented motion with GSAP,
+    tested with Storybook'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 54c46865201ac7d44ac5899e35e4e6ed, type: 2}
   m_sharedMaterial: {fileID: 3586798086936551873, guid: 54c46865201ac7d44ac5899e35e4e6ed, type: 2}
@@ -5931,7 +5931,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -6326,7 +6326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &830394589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6507,7 +6507,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -9912,8 +9912,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294931198
-  m_fontColor: {r: 0.9963867, g: 0.44716978, b: 1, a: 1}
+    rgba: 4280660735
+  m_fontColor: {r: 1, g: 0.6992036, b: 0.14528298, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -11436,7 +11436,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh54502
+  m_Name: pb_Mesh63876
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
