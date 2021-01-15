@@ -18,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
  Vector3 velocity; 
     void Update()
     {
-       // Cursor.visible = true;
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         if(isGrounded && velocity.y<0){velocity.y = -2.0f;}
 

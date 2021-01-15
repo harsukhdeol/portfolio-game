@@ -1,5 +1,33 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7082431808813540050
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65e486e4de6e5448a8fbb43dc8756a0, type: 3}
+  m_Name: Grain
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  colored:
+    overrideState: 0
+    value: 1
+  intensity:
+    overrideState: 1
+    value: 0.153
+  size:
+    overrideState: 0
+    value: 1
+  lumContrib:
+    overrideState: 0
+    value: 0.8
 --- !u!114 &-5554520932925292684
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -21,7 +49,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.4
+    value: 0.67
   color:
     overrideState: 0
     value: {r: 0, g: 0, b: 0, a: 1}
@@ -65,6 +93,7 @@ MonoBehaviour:
   - {fileID: -5554520932925292684}
   - {fileID: 8511375617903512462}
   - {fileID: 6125426025592387249}
+  - {fileID: -7082431808813540050}
 --- !u!114 &6125426025592387249
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -83,7 +112,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.36
+    value: 0.81
   threshold:
     overrideState: 0
     value: 0
@@ -165,7 +194,7 @@ MonoBehaviour:
     value: 1
   temperature:
     overrideState: 0
-    value: 0
+    value: 5
   tint:
     overrideState: 0
     value: 0
@@ -186,7 +215,7 @@ MonoBehaviour:
     value: 0
   contrast:
     overrideState: 1
-    value: 40
+    value: 9
   mixerRedOutRedIn:
     overrideState: 0
     value: 0
@@ -216,13 +245,13 @@ MonoBehaviour:
     value: 0
   lift:
     overrideState: 1
-    value: {x: 0.7984641, y: 0.80244446, z: 1, w: 0.042372882}
+    value: {x: 0.9165849, y: 0.9688864, z: 1, w: -0.038135584}
   gamma:
-    overrideState: 0
-    value: {x: 0.7140113, y: 0.77018183, z: 1, w: 0.21186443}
-  gain:
     overrideState: 1
-    value: {x: 0.26495802, y: 0.4701662, z: 1, w: 0.2584748}
+    value: {x: 0.27951086, y: 0.41057232, z: 1, w: -0.016949214}
+  gain:
+    overrideState: 0
+    value: {x: 0.62645644, y: 0.6891657, z: 1, w: 0.38559338}
   masterCurve:
     overrideState: 0
     value:
